@@ -1,0 +1,16 @@
+.wrapper {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 3px solid tomato;
+  padding: 20px;
+  .form {
+    margin-bottom: 20px;
+    .input {
+      padding: 8px;
+      border: 2px solid cornflowerblue;
+      border-radius: 14px;
+    }
+  }
+}

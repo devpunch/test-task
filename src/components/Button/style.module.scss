@@ -1,0 +1,20 @@
+.button {
+  border: none;
+  width: 200px;
+  background-color: dodgerblue;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 12px;
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+
+  &:hover {
+    background-color: #4a4af1;
+  }
+  &:disabled {
+    background-color: #868e96;
+  }
+}
